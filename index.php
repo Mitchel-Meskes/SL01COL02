@@ -1,23 +1,4 @@
 <?php
-
-/**
- * Vorige week
- */
-$name = 'Hans ';
-$age = 50;
-$isMarried = false;
-$dob = strtotime ('06-06-1944');
-
-$dobYearOnly = date(format:'Y'. $dob);
-
-$currentDate = date('Y');
-$currentDate2 = date('1944');
-if ($dobYearOnly == $currentDate2) {
-    echo 'D-Day is here!';
-} else {
-    echo 'D-Day is long gone!';
-}
-
 /**
  * Array
 */
